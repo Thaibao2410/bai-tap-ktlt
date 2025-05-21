@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bao"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-02 07:45:22 PM"/>
+        <attribute name="created" value="QmFvO0RFU0tUT1AtT0FSM09QUDsyMDI1LTAzLTAyOzA3OjMxOjM5IFBNOzI2NTQ="/>
+        <attribute name="edited" value="QmFvO0RFU0tUT1AtT0FSM09QUDsyMDI1LTAzLTAyOzA3OjQ1OjIyIFBNOzE7Mjc1OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, h, s" type="Integer" array="False" size=""/>
+            <output expression="&quot; nhap a &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot; nhap h &quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="s" expression="0.5 * a * h"/>
+            <output expression="&quot;Dien tich tam giac la&quot;" newline="True"/>
+            <output expression="s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
